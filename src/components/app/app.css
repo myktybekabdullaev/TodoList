@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background: url("./bacgr4.jpg") center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-container{
+    max-width: 600px;
+    width: 100%;
+    background: #4a4949;
+    border: 15px solid #48150c;
+    border-bottom: 25px solid #48150c;
+    padding: 20px;
+}
+.header-container{
+    color: #1bb6e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control{
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    margin-bottom: 25px;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color: #1bb6e0;
+    font-size: 20px;
+}
+.add-form{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 90px;
+}
+.btn.btn-success{
+    width: 150px;
+    height: 45px;
+}
+.todo-name.done{
+    text-decoration: line-through;
+}
+.todo-name.important{
+    color: yellow;
+}
+.fa{
+    font-size: 25px;
+}
+
+@media (max-width: 375px) {
+    .app-container{
+        max-width: 300px;
+    }
+    .form-control{
+        max-width: 97px;
+        margin-bottom: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .btn{
+        width: 44px;
+        padding: 0;
+    }
+    .fa{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 411px) {
+    .app-container{
+        max-width: 300px;
+    }
+    .form-control{
+        max-width: 97px;
+        margin-bottom: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .btn{
+        width: 44px;
+        padding: 0;
+    }
+    .fa{
+        font-size: 17px;
+    }
+}
+
+
